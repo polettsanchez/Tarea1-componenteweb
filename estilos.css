@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.componente {
+    background-color: #AD4040;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta {
+    background-color: #FFD8C2;
+    padding: 32px 32px;
+    border-radius: 32px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.nombre {
+    color: #DA0000;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.boton {
+    display: inline-block;
+    background-color: #FEFFBD;
+    padding: 16px 32px;
+    border-radius: 16px;
+    font-size: 20px;
+    color: #AD4040;
+    text-decoration: none;
+    transform: 0.3s ease-in-out;
+
+}
+.boton:hover {
+    background-color: #DA0000;
+    color: #FEFFBD;
+}
